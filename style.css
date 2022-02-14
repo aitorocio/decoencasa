@@ -28,10 +28,7 @@ header{
 
 /* accion menu desplegable */
 
-.imgMenu{
-    height: fit-content;
 
-}
 .imgLogo{
     height: 50px;
     width: 50px;
@@ -87,8 +84,13 @@ header{
     align-self: center;
 }
 
-/* contenido */
-.contenido{
-    height: 80px;
+/* BANNER */
+.banner{
+    height: 30vh;
     width: fix-content;
+}
+.fotoBanner{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
