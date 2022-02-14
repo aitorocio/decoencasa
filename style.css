@@ -83,3 +83,9 @@ header{
     justify-self: center;
     align-self: center;
 }
+
+/* contenido */
+.contenido{
+    height: 80px;
+    width: fix-content;
+}
