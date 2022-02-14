@@ -74,7 +74,10 @@ header{
     transition:height 0.8s;
     height: 80vh;
     background-color: #05f77a4f ;
-    display: grid;   
+    display: grid;
+     /* le doy posicion relativa para poder dar valor al inidce Z i me mande el menu desplegble delante de todos los objetos que haya */
+     position: relative;
+     z-index: 1;    
     
 
 }
