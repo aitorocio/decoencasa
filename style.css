@@ -8,3 +8,78 @@
 @import "./css/grid.css";
 @import "./css/layout.css";
 @import "./css/mediaquery.css";
+
+/* CSS MODULAR */
+
+@import "./css/normalize.css";
+@import "./css/reset.css";
+
+@import "./css/color.css";
+@import "./css/tipografia.css";
+@import "./css/grid.css";
+@import "./css/layout.css";
+@import "./css/mediaquery.css";
+
+header{
+
+    height: 20vh;
+}
+
+
+/* accion menu desplegable */
+
+.imgMenu{
+    height: fit-content;
+
+}
+.imgLogo{
+    height: 50px;
+    width: 50px;
+}
+.barraFija{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6rem 0.6rem 0px 0.6rem;
+    background-color: aquamarine;
+    height: 100%;
+}
+
+/* oculto el menu desplegable */
+.menuDesplegable{
+    height: 0;
+    overflow: hidden;
+}
+
+/* le doy altura cunado cliquen a la img menu */
+#menu:target .menuDesplegable{
+ height: 100%;
+}
+
+/* al volver a clicar (desaparecen) */
+.cerrar {
+    display: none;
+}
+
+#menu:target .abrir{
+    display: none;
+}
+
+/* al clicar aparece el menu que estaba oculto */
+#menu:target .cerrar{
+    display: block;
+}
+
+#menu:target .menuDesplegable{
+    margin-top: 0 ;
+    transition:height 0.8s;
+    height: 80vh;
+    background-color: #05f77a4f ;
+    display: grid;   
+    
+
+}
+/* centro a los hijos del grid  */
+#menu:target li{    
+    justify-self: center;
+    align-self: center;
+}
