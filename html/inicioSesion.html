@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar Sesion</title>
+    <title>Interiores</title>
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <header>
-        <nav id="menu">
+        <!-- nav para movil -->
+        <nav id="menu">           
             <div class="barraFija">
                 <!-- damos referencia del link con el id del nav -->
-                <a href="#menu" class="abrir"><img src="../img/mobile/menu.svg" class="imgMenu"></a>
-                <a href="#" class="cerrar"><img src="../img/mobile/menu.svg" alt=""></a>
-                <a href="../index.html"><img src="../img/mobile/logo.svg" class="imgLogo"></a>
+                <a href="#menu" class="abrir"><img src="../img/mobile/menu.svg" class="imgMenu"></a>                
+                <a href="#" class="cerrar"><img src="../img/mobile/menu.svg" class="imgMenu"></a>
+                <a href="index.html"><img src="../img/mobile/logo.svg" class="imgLogo"></a>
             </div>
+            
             <!-- Elementos del menu -->
             <ul class="menuDesplegable">
                 <li><a href="../index.html">Home</a></li>
@@ -26,5 +28,21 @@
             </ul>
         </nav>
     </header>
+    <section class="seccionCrearUsuario">
+        <div class="formularioCrearUsuario">
+            <form action="paginaUsuario.html"> 
+               
+                <div class="datos_formulario">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre"></input>
+                </div>
+                <div class="datos_formulario">
+                    <label for="nombre">Contraseña</label>
+                    <input type="password" id="nombre" name="nombre"></input>
+                </div>   
+                <button type="submit">Iniciar Sesión</button>            
+            </form>
+        </div>        
+    </section>
 </body>
 </html>
