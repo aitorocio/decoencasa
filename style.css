@@ -9,16 +9,6 @@
 @import "./css/layout.css";
 @import "./css/mediaquery.css";
 
-/* CSS MODULAR */
-
-@import "./css/normalize.css";
-@import "./css/reset.css";
-
-@import "./css/color.css";
-@import "./css/tipografia.css";
-@import "./css/grid.css";
-@import "./css/layout.css";
-@import "./css/mediaquery.css";
 
 html{
     height: 100%;
@@ -78,7 +68,7 @@ height: 100%;
     padding:0;
     transition:height 0.8s;
     height: 80vh;
-    background-color: rgba(127, 255, 212, 0.651) ;
+    background-color: #05f77a4f ;
     display: grid;  
     /* le doy posicion relativa para poder dar valor al inidce Z i me mande el menu desplegble delante de todos los objetos que haya */
     position: relative;
@@ -106,6 +96,7 @@ height: 100%;
  }
  .datos_formulario input{
      width: 100%;
+     margin-bottom: 18px;
 
  }
 
@@ -118,7 +109,20 @@ height: 100%;
     padding: 5px 5px;
 }
 
-button [type="submit"]{
+
+button{
     padding: 5px;
     margin-top: 10px;
+    background-color: lightgreen;
+    color: whitesmoke;
+    border-style: none;
+    border-radius: 8px;
 }
+button:hover{
+    background-color:green;
+   
+}
+ input[type="checkBox"]{
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+ }
