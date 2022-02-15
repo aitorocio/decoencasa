@@ -117,3 +117,8 @@ height: 100%;
     width: 100%;
     padding: 5px 5px;
 }
+
+button [type="submit"]{
+    padding: 5px;
+    margin-top: 10px;
+}
