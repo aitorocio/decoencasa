@@ -22,7 +22,7 @@
 
 header{
 
-    height: 20vh;
+    height: 10vh;
 }
 
 
@@ -86,7 +86,7 @@ header{
 
 /* BANNER */
 .banner{
-    height: 30vh;
+    height: 20vh;
     width: fix-content;
 }
 .fotoBanner{
