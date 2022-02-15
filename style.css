@@ -17,6 +17,10 @@ body{
     margin: 0;
     height: 100%;
 }
+hr{
+    width: 80%;
+    border: 1px solid black;
+}
 /* HEADER */
 
 header{
@@ -68,7 +72,7 @@ height: 100%;
     padding:0;
     transition:height 0.8s;
     height: 80vh;
-    background-color: #05f77a4f ;
+    background-color: aquamarine ;
     display: grid;  
     /* le doy posicion relativa para poder dar valor al inidce Z i me mande el menu desplegble delante de todos los objetos que haya */
     position: relative;
@@ -84,7 +88,8 @@ height: 100%;
 
   /* FORMULARIO */
   form{
-    padding-top:25px;    
+    padding-top:25px;  
+    width: 75%;  
   }
 
  .formularioCrearUsuario{
@@ -92,12 +97,16 @@ height: 100%;
     align-items: center;
     flex-direction: column;
     height: 100%;
-    width: 80%;
+    
+    
+ }
+ .formularioCrearUsuario h2{
+     text-align:center;
  }
  .datos_formulario input{
      width: 100%;
      margin-bottom: 18px;
-
+    padding: 5px;
  }
 
 .datos_formulario label{
@@ -111,12 +120,12 @@ height: 100%;
 
 
 button{
-    padding: 5px;
-    margin-top: 10px;
+    padding: 15px;
+    margin: 10px 0px 10px 0px;
     background-color: lightgreen;
     color: whitesmoke;
     border-style: none;
-    border-radius: 8px;
+    border-radius: 11px;
 }
 button:hover{
     background-color:green;
@@ -124,5 +133,15 @@ button:hover{
 }
  input[type="checkBox"]{
     padding: 5px;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 5px 5px 0px;
+    width: 30px;
+    height: 30px;
+ }
+
+ /* banner */
+ .banner{
+    width: 100%;
+    height: 150px;
+    background-color: chartreuse;
+    margin-top: 1px;
  }
