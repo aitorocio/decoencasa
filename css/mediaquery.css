@@ -4,10 +4,8 @@
 /* ****************** */
 /* *** Smartphone *** */
 @media only screen and (min-device-width: 320px) and (orientation: portrait){
-    .container{
-        height: 100vh;
-    }
-   
+    
+    
     header{
         height: 92px;
         
@@ -28,7 +26,7 @@
         display: flex;
         justify-content: space-between;
         padding: 0.6rem 0.6rem 0px 0.6rem;
-        background-color: aquamarine;
+        background-color:#58FFCD;
         height: 100%;
         align-items: center;
     }
@@ -65,7 +63,7 @@
         padding:0;
         transition:height 0.8s;
         height: 80vh;
-        background-color:rgba(127, 255, 212) ;
+        background-color:#58FFCD ;
         display: grid;  
         
         position: relative;
@@ -85,12 +83,12 @@
         flex-direction: column;
         align-items: center;
         justify-items: center;
-        height: 100%;
         gap: 2%;
       }
         .seccionCrearUsuario{
-            height: 50%;
+            height: 100%;
         }   
+
      .formularioCrearUsuario{
         display: flex;
         align-items: center;
@@ -103,12 +101,16 @@
      .formularioCrearUsuario h2{
          text-align:center;
      }
+     form .datos_formulario{
+        width: 80%;
+     }
      .datos_formulario input{
         width: 100%;
         margin-bottom: 18px;
         padding: 15px;
         border: 2px solid rgb(135, 255, 119);
         border-radius: 8px; 
+        outline: none;
         
      }
     
@@ -117,26 +119,28 @@
         
     }
     .labelCheckox{
-    width: 100%;
+    width: 80%;
     }
      .datos_formulario select{
         width: 100%;
-        padding: 5px 5px;
+        padding: 15px;
         border: 2px solid rgb(135, 255, 119);
         border-radius: 8px;
+        background-color: #fff;
     }
     
     
     button{
         
         background: #58FFCD;
-        border: 4.21429px solid #05F77A;
+        border: 4.21429px solid rgb(135, 255, 119);
         border-radius: 9.83333px;
-        padding: 35px 15px 30px 15px;
+        padding: 15px 30px;
     }
     
     button:hover{
-        background-color:green;
+        background:  rgb(135, 255, 119);
+        border-color:#58FFCD;
        
     }
     
@@ -173,7 +177,7 @@
 /* *** Tablet *** */
 /* Vertical */
 
-@media only screen and (min-device-width: 320px) and (orientation: portrait){
+@media only screen and (min-device-width: 800px) and (orientation: portrait){
     
      
     header{
@@ -328,7 +332,7 @@
 
 /* **************** */
 /* *** Desktop *** */
-@media only screen and (min-width: 10240px){
+@media only screen and (min-width: 1140px){
     /* cambio de nav */
    
    .container{
@@ -337,10 +341,11 @@
    
     header{
         
-        height: 15%;
+        height: 10%;
     }
     #menu{
         height: 100%;
+        align-items: center;
     }
    
    .abrir , .cerrar{
@@ -349,6 +354,7 @@
    .imgLogo{
        height: 85px;
        width: 100px;
+       align-self:center;
    }
    #menu{
        display:flex;
@@ -389,7 +395,7 @@
    /* banner */
    .banner{
     width: 100%;
-    height: 150px;
+    height: 440px;
     background-color: chartreuse;
     margin-top: 1px;
  }

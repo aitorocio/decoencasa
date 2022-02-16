@@ -1,15 +1,16 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de sesión</title>
+    <title>Iniciar sesión</title>
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container"> 
     <header>
         <!-- nav para movil -->
         <nav id="menu">           
@@ -23,24 +24,25 @@
             <!-- Elementos del menu -->
             <ul class="menuDesplegable">
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="./interiores.html">Interiores</a></li>
-                <li><a href="./exteriores.html">Exteriores</a></li>
-                <li><a href="./inicioSesion.html">Inicio Sesion</a></li>
-                <li><a href="./crearUsuario.html">Crear Usuario</a></li>        
+                <li><a href="interiores.html">Interiores</a></li>
+                <li><a href="exteriores.html">Exteriores</a></li>
+                <li><a href="inicioSesion.html">Inicio Sesion</a></li>
+                <li><a href="crearUsuario.html">Crear Usuario</a></li>        
             </ul>
         </nav>
     </header>
     <section class="seccionCrearUsuario">
         <div class="formularioCrearUsuario">
             <form action="paginaUsuario.html"> 
+               <h2>Bienvenido al logIn decoencasa</h2>
                
                 <div class="datos_formulario">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" name="nombre"></input>
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email"></input>
                 </div>
                 <div class="datos_formulario">
-                    <label for="nombre">Contraseña</label>
-                    <input type="password" id="nombre" name="nombre"></input>
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password"></input>
                 </div>   
                 <button type="submit">Iniciar Sesión</button>            
             </form>
