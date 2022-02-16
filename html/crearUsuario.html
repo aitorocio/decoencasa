@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
+    <div class="container">
     <header>
         <!-- nav para movil -->
         <nav id="menu">           
@@ -15,35 +16,35 @@
                 <!-- damos referencia del link con el id del nav -->
                 <a href="#menu" class="abrir"><img src="../img/mobile/menu.svg" class="imgMenu"></a>                
                 <a href="#" class="cerrar"><img src="../img/mobile/menu.svg" class="imgMenu"></a>
-                <a href="../index.html"><img src="../img/mobile/logo.svg" class="imgLogo"></a>
+                <a href="index.html"><img src="../img/mobile/logo.svg" class="imgLogo"></a>
             </div>
             
             <!-- Elementos del menu -->
             <ul class="menuDesplegable">
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="./interiores.html">Interiores</a></li>
-                <li><a href="./exteriores.html">Exteriores</a></li>
-                <li><a href="./inicioSesion.html">Inicio Sesion</a></li>
-                <li><a href="./crearUsuario.html">Crear Usuario</a></li>        
+                <li><a href="interiores.html">Interiores</a></li>
+                <li><a href="exteriores.html">Exteriores</a></li>
+                <li><a href="inicioSesion.html">Inicio Sesion</a></li>
+                <li><a href="crearUsuario.html">Crear Usuario</a></li>        
             </ul>
         </nav>
     </header>
     <section class="seccionCrearUsuario">
         <div class="formularioCrearUsuario">
-            <h2>Bienvenido al mundo de la decoracion</h2>
+            <h2>Bienvenido al mundo de la decoración</h2>
             <hr>
             <form action="inicioSesion.html"> 
                
                 <div class="datos_formulario">
-                    <label for="nombre">Nombre</label>
+                    <label for="nombre">Nombre*</label>
                     <input type="text" id="nombre" name="nombre"></input>
                 </div>
                 <div class="datos_formulario">
-                    <label for="apellidos">Apellidos</label>
+                    <label for="apellidos">Apellidos*</label>
                     <input type="text" id="apellidos" name="apellidos"></input>
                 </div>
                 <div class="datos_formulario">
-                    <label for="email">Correo Electrónico</label>
+                    <label for="email">Correo Electrónico*</label>
                     <input type="email" id="email" name="email"></input>
                 </div>
                 <div class="datos_formulario">
@@ -55,11 +56,11 @@
                     <input type="text" id="localidad" name="localidad"></input>
                 </div>
                 <div class="datos_formulario">
-                    <label for="nombre">Contraseña</label>
+                    <label for="nombre">Contraseña*</label>
                     <input type="password" id="nombre" name="nombre"></input>
                 </div>
                 <div class="datos_formulario">
-                    <label for="nombre">Repetir Contraseña</label>
+                    <label for="nombre">Repetir Contraseña*</label>
                     <input type="password" id="nombre" name="nombre"></input>
                 </div>
                 <div class="datos_formulario">
@@ -72,14 +73,15 @@
                     </select>
                 </div>
                 
-                <input type="checkBox">Términos y condiciones</input><br>
-                <input type="checkBox">Acepto tratamiento de datos etc..</input><br>
+                <label class="labelCheckox"><input type="checkbox" id="checkbox1">Acepto tratamiento de datos etc..</input></label>
+                <label class="labelCheckox"><input type="checkbox" id="checkbox2">Acepto tratamiento de datos etc..</input></label>     
+                
                 <button type="submit">Suscribirse</button>
 
             </form>
         </div>
         
     </section>
-    
+</div>  
 </body>
 </html>
