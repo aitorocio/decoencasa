@@ -10,12 +10,15 @@
 @import "./css/mediaquery.css";
 
 
+img{
+    width: 100%;
+}
 body{
     margin: 0;
-    background-color: rgba(127, 255, 212, 0.65) ;
+     
 }
 hr{
-    width: 80%;
+    width: 75%;
     border: 1px solid black;
 }
 /* HEADER */
@@ -26,4 +29,8 @@ header{
 }
 .container{
     height: 100vh;
+}
+
+.banner{
+    background-color: green;
 }

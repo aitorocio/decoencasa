@@ -14,9 +14,9 @@
         <nav id="menu">           
             <div class="barraFija">
                 <!-- damos referencia del link con el id del nav -->
-                <a href="#menu" class="abrir"><img src="../img/mobile/menu.svg" class="imgMenu"></a>                
-                <a href="#" class="cerrar"><img src="../img/mobile/menu.svg" class="imgMenu"></a>
-                <a href="../index.html"><img src="../img/mobile/logo.svg" class="imgLogo"></a>
+                <a href="#menu" class="abrir"><img src="../img/svg/menu.svg" class="imgMenu"></a>                
+                <a href="#" class="cerrar"><img src="../img/svg/menu.svg" class="imgMenu"></a>
+                <a href="../index.html"><img src="../img/svg/logo.svg" class="imgLogo"></a>
             </div>
             
             <!-- Elementos del menu -->
@@ -25,15 +25,15 @@
                 <li><a href="interiores.html">Interiores</a></li>
                 <li><a href="exteriores.html">Exteriores</a></li>
                 <li><a href="inicioSesion.html">Inicio Sesion</a></li>
-                <li><a href="crearUsuario.html">Crear Usuario</a></li>        
+                <li class="btnCreUsu"><a href="./crearUsuario.html">Suscribete</a></li>          
             </ul>
         </nav>
         </header>
-        <section class="seccionCrearUsuario">
+        <section class="seccionCrearUsuario__" >
             <div class="formularioCrearUsuario">
             <h2>Bienvenido al mundo de la decoración</h2>
             <hr>
-            <form action="inicioSesion.html"> 
+            <form action="./inicioSesion.html" class="desktopCrearUsuario"> 
                
                 <div class="datos_formulario">
                     <label for="nombre">Nombre*</label>
@@ -52,16 +52,16 @@
                     <input type="date" id="fechaNac" name="fechaNac"></input>
                 </div>
                 <div class="datos_formulario">
-                    <label for="Localidad">Localidad</label>
+                    <label for="localidad">Localidad</label>
                     <input type="text" id="localidad" name="localidad"></input>
                 </div>
                 <div class="datos_formulario">
-                    <label for="nombre">Contraseña*</label>
-                    <input type="password" id="nombre" name="nombre"></input>
+                    <label for="contr">Contraseña*</label>
+                    <input type="text" id="contr" name="contr"></input>
                 </div>
                 <div class="datos_formulario">
-                    <label for="nombre">Repetir Contraseña*</label>
-                    <input type="password" id="nombre" name="nombre"></input>
+                    <label for="contrIgu">Repetir Contraseña*</label>
+                    <input type="text" id="contrIgu" name="contrIgu"></input>
                 </div>
                 <div class="datos_formulario">
                     <label for="como">Cómo nos encontraste</label>
@@ -76,8 +76,8 @@
                 <label class="labelCheckox"><input type="checkbox" id="checkbox1">Acepto tratamiento de datos etc..</input></label>
                 <label class="labelCheckox"><input type="checkbox" id="checkbox2">Acepto tratamiento de datos etc..</input></label>     
                 
-                <button type="submit">Suscribirse</button>
-
+                <button type="submit">Suscribete</button>
+                
             </form>
         </div>
         
