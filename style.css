@@ -10,9 +10,7 @@
 @import "./css/mediaquery.css";
 
 
-img{
-    width: 100%;
-}
+
 body{
     margin: 0;
      
@@ -31,6 +29,3 @@ header{
     height: 100vh;
 }
 
-.banner{
-    background-color: green;
-}
