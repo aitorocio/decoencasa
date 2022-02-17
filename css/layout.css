@@ -1,4 +1,62 @@
 /* CSS LAYOUT */
 /* **************************************************************** */
+/* formulario */
 
+form {
+    padding-top: 15px;
+  }
+  
+  .formularioCrearUsuario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  .formularioCrearUsuario h2 {
+    text-align: center;
+  }
+  form .datos_formulario {
+    width: 80%;
+  }
+  .datos_formulario input {
+    width: 100%;
+    margin-bottom: 18px;
+    padding: 15px;
+    border: 2px solid rgb(135, 255, 119);
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  .datos_formulario label {
+    margin-top: 10px;
+  }
+  .labelCheckox {
+    width: 80%;
+  }
+  .datos_formulario select {
+    width: 100%;
+    border: 2px solid rgb(135, 255, 119);
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  button {
+    background: #58ffcd;
+    border: 4.21429px solid rgb(135, 255, 119);
+    border-radius: 9.83333px;
+    padding: 15px 30px;
+  }
+  button:hover {
+    background: rgb(135, 255, 119);
+    border-color: #58ffcd;
+  }
+  input[type="checkBox"] {
+    margin: 10px 5px 5px 0px;
+    width: 30px;
+    height: 30px;
+  }
+  input[type="checkBox"] text {
+    color: whitesmoke;
+  }
+  
 
