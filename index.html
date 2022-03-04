@@ -1,71 +1,30 @@
-
-<!-- README   stackedit.io    -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Menu bueno</title>
+    
 </head>
 <body>
-    <div class="container">
-        <header>        
-            <!-- nav para movil -->
-            <nav id="menu">           
-                <div class="barraFija">
-                    <!-- damos referencia del link con el id del nav -->
-                    <a href="#menu" class="abrir"><img src="./img/svg/menu.svg" class="imgMenu"></a>                
-                    <a href="#" class="cerrar"><img src="./img/svg/menu.svg" class="imgMenu"></a>
-                    <a href="index.html"><img src="./img/svg/logo.svg" class="imgLogo"></a>
-                </div>
-                
-                <!-- Elementos del menu -->
-                <ul class="menuDesplegable">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="./html/interiores.html">Interiores</a></li>
-                    <li><a href="./html/exteriores.html">Exteriores</a></li>
-                    <li><a href="./html/inicioSesion.html">Inicio Sesion</a></li>
-                    <li class="btnCreUsu"><a href="./html/crearUsuario.html"> Regístrate</a></li>        
-                </ul>
-            </nav>      
-        </header>
-        <section class="banner">
-           
-            <picture class="imgBanner">
-                <!-- smartphone -->
-                <source
-                  srcset="
-                    img/movil/fondomadera.webp 1x,
-                    img/movil/fondomadera@2.webp 2x,
-                    img/movil/fondomadera@3.webp 3x"
-                  media="(min-width:320px) and (max-width:450px) and (orientation: portrait)"
-                />
-                
-                <!-- ipad -->
-                <source
-                  srcset="img/tablet/fondomadera.webp 1x, 
-                  img/tablet/fondomadera@2x.webp 2x"
-                  media="(min-width:768px) and (max-width:999px) and (orientation: portrait)"
-                />
-        
-                <!-- escritorio -->
-                <source
-                  srcset="
-                  img/desktop/fondomadera.webp   1x,
-                  img/desktop/fondomadera@2x.webp 2x
-                  "
-                  media="(min-width:1000px)"
-                />
-        
-                <!-- Etiqueta img -->
-                <img src="" alt="fondo de madera" />
-              </picture>
-                
-        </section>
-        <h1>INDEX</h1>
-    </div>
+    <header>
+        <h1 class="logotipo"><a href="index.html">Logotipo</a></h1>
+        <nav>
+            <!-- Zona Click Menú de hamburguesa -->
+            <label class="boton" for="click">BOTON</label>
+            <input type="checkbox" id="click" />
+            <!-- Menu con los enlaces -->
+            <ul class="menu">
+                <li><a href="index.html" class="noDesktop">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contactar.html">Contactar</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contactar.html">Contactar</a></li>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>
