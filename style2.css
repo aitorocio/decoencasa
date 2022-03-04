@@ -19,6 +19,7 @@ label.boton {
 input, ul.menu {
     display: none;
 }
+
 /* Al hacer click */
 input:checked ~ ul.menu {
     width: 100%;
@@ -42,8 +43,5 @@ input:checked ~ ul.menu {
     ul.menu {
         display: flex;
     }
-    li::before {
-        content: "‣";
-        margin: 0 1rem;
-    }
+    
 }
